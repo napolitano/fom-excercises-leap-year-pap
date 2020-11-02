@@ -4,10 +4,10 @@ Formulieren Sie einen Algorithmus, mit dessen Hilfe man feststellen kann,ob ein 
 
 ## Hilfsmittel
 
-Das Diagramm wurde mit dem Werkzeug "PAP Designer" von Friedrich Folkmann erzeugt. Das Werkzeug können Sie von seiner [Webseite] (http://friedrich-folkmann.de/papdesigner/Hauptseite.html) beziehen.
+Das Diagramm wurde mit dem Werkzeug "PAP Designer" von Friedrich Folkmann erzeugt. Das Werkzeug können Sie von seiner [Webseite](http://friedrich-folkmann.de/papdesigner/Hauptseite.html) beziehen.
 
 ## Ergebnis
 
-![Schaltjahr-Ermittlung PAP] (Entspricht die eingegebene Zahl einem Schaltjahr.png)
+![Schaltjahr-Ermittlung PAP]("/Entspricht die eingegebene Zahl einem Schaltjahr.png")
 
 
