@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="523588D869801C61">
+  <PROJECT FORMAT="1.00" NAME="FOM-Uebungsaufgabe 1" AUTHOR="axnapoli" CREATED="2020.11.02 18:29:40" MODIFIED="2020.11.02 18:50:09">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="Entspricht die eingegebene Zahl einem Schaltjahr?" CREATED="2020.11.02 18:29:53" MODIFIED="2020.11.02 18:50:09">
+        <LAYOUT FORMAT="1.00" COLUMNS="5" ROWS="9">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="21">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="47">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="5">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="14">
+                <TEXT><![CDATA[Ausgabe von "Ist kein Schaltjahr"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="17">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Entspricht die eingegebene Zahl einem Schaltjahr?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="2">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Ausgabe von "Bitte geben Sie eine Jahreszahl ein:"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="3">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[Eingabe von Jahreszahl]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[Jahreszahl ist durch 400 teilbar?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="5">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Jahreszahl ist durch 100 teilbar?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="6">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[Jahreszahl ist durch 4 teilbar?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="7">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="44">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="8">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="4">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="15">
+                <TEXT><![CDATA[Ausgabe von "Ist ein Schaltjahr"]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="3" ROW="6">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="59">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="62">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="4" ROW="7">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="68">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="8" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="10" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="10" TO="12" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="70" FROM="68" TO="44" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="18" FROM="12" TO="17" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="19" FROM="17" TO="14" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="20" FROM="10" TO="14" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="22" FROM="14" TO="21" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="63" FROM="15" TO="62" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="49" FROM="47" TO="44" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="24" FROM="21" TO="47" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="46" FROM="44" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="60" FROM="12" TO="59" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="39" FROM="8" TO="15" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="65" FROM="62" TO="68" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="61" FROM="59" TO="15" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>
