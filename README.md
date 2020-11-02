@@ -8,6 +8,6 @@ Das Diagramm wurde mit dem Werkzeug "PAP Designer" von Friedrich Folkmann erzeug
 
 ## Ergebnis
 
-![Schaltjahr-Ermittlung PAP]("/Entspricht die eingegebene Zahl einem Schaltjahr.png")
+![Schaltjahr-Ermittlung PAP](https://github.com/napolitano/fom-excercises-leap-year-pap/blob/main/Entspricht%20die%20eingegebene%20Zahl%20einem%20Schaltjahr.png)
 
 
